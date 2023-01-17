@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-30
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "Hazel_dies",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-19,
+				-35
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "Hazel_dead_confirm",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-20,
+				-34
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathLoop",
+			"loop": true,
+			"name": "Hazel_dead_loop"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Hazel",
+	"position": [
+		-30,
+		90
+	],
+	"healthicon": "hazel",
+	"flip_x": false,
+	"healthbar_colors": [
+		107,
+		54,
+		42
+	],
+	"camera_position": [
+		10,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

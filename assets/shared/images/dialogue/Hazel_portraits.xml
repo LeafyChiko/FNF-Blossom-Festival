@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Hazel_portraits.png">
+	<!-- Created with Adobe Animate version 22.0.6.202 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Hazel_concerned0000" x="0" y="0" width="1068" height="1048"/>
+	<SubTexture name="Hazel_curious0000" x="1068" y="0" width="1074" height="1054"/>
+	<SubTexture name="Hazel_happy0000" x="2142" y="0" width="1095" height="1076"/>
+	<SubTexture name="Hazel_neutral0000" x="0" y="1076" width="1106" height="1086"/>
+	<SubTexture name="Hazel_shock0000" x="1106" y="1076" width="1110" height="1090"/>
+	<SubTexture name="Hazel_shout0000" x="2216" y="1076" width="1018" height="999"/>
+</TextureAtlas>

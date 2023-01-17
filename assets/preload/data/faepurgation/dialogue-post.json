@@ -1,0 +1,52 @@
+{
+	"dialogue": [
+		{
+			"expression": "frown",
+			"text": "...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "chii"
+		},
+		{
+			"expression": "concerned",
+			"text": "...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "hazel"
+		},
+		{
+			"expression": "frown",
+			"text": "Well you got your song, can you let me clean now?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "chii"
+		},
+		{
+			"expression": "neutral",
+			"text": "Nope! I'm cleaning, gimme the broom!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "hazel"
+		},
+		{
+			"expression": "neutral",
+			"text": "W-what? No! Last time you tried to help you kicked up too much dust!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "chii"
+		},
+		{
+			"expression": "shout",
+			"text": "LET ME HELPPP!",
+			"boxState": "angry",
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "hazel"
+		}
+	]
+}

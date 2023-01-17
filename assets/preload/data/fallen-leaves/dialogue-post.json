@@ -1,0 +1,36 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "hazel-left",
+			"boxState": "normal",
+			"expression": "shock",
+			"text": "W-wow..."
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "hazel-left",
+			"boxState": "normal",
+			"expression": "shock",
+			"text": "You were like, super duper fast! Let's sing again!"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "B-bep"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "hazel-left",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Oh, right yeah I forgot, there's people waiting, ehe. Well... I'll see you after the competition is over!"
+		}
+	]
+}

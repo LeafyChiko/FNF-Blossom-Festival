@@ -1,0 +1,76 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		-150,
+		-270
+	],
+	"scale": 0.7,
+	"animations": [
+		{
+			"loop_name": "Chi_frown",
+			"idle_offsets": [
+				-3,
+				-1
+			],
+			"idle_name": "Chi_frown",
+			"anim": "frown",
+			"loop_offsets": [
+				-3,
+				-1
+			]
+		},
+		{
+			"loop_name": "Chi_neutral",
+			"idle_offsets": [
+				0,
+				11
+			],
+			"idle_name": "Chi_neutral",
+			"anim": "neutral",
+			"loop_offsets": [
+				0,
+				11
+			]
+		},
+		{
+			"loop_name": "Chi_smile",
+			"idle_offsets": [
+				-3,
+				3
+			],
+			"idle_name": "Chi_smile",
+			"anim": "smile",
+			"loop_offsets": [
+				-3,
+				3
+			]
+		},
+		{
+			"loop_name": "Chi_sweat_default",
+			"idle_offsets": [
+				-18,
+				-15
+			],
+			"idle_name": "Chi_sweat_default",
+			"anim": "sweatdefault",
+			"loop_offsets": [
+				-18,
+				-15
+			]
+		},
+		{
+			"loop_name": "Chi_sweat_smile",
+			"idle_offsets": [
+				-18,
+				-13
+			],
+			"idle_name": "Chi_sweat_smile",
+			"anim": "sweatsmile",
+			"loop_offsets": [
+				-18,
+				-13
+			]
+		}
+	],
+	"image": "Chii_portraits"
+}

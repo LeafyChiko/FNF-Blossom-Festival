@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Chii.png">
+<SubTexture name="Chii Down0000" x="0" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down0001" x="0" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down0002" x="604" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down0003" x="604" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down0004" x="604" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down0005" x="604" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down0006" x="604" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down0007" x="604" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down0008" x="604" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down0009" x="604" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down0010" x="604" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down0011" x="604" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down0012" x="604" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down Alt0000" x="1208" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down Alt0001" x="1208" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down Alt0002" x="1812" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down Alt0003" x="1812" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down Alt0004" x="1812" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down Alt0005" x="1812" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down Alt0006" x="1812" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down Alt0007" x="1812" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down Alt0008" x="1812" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down Alt0009" x="1812" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down Alt0010" x="1812" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down Alt0011" x="1812" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Down Alt0012" x="1812" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle0000" x="2416" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle0001" x="2416" y="0" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle0002" x="0" y="648" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle0003" x="0" y="648" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle0004" x="604" y="648" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle0005" x="604" y="648" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle0006" x="1208" y="648" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle0007" x="1208" y="648" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle0008" x="1812" y="648" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle0009" x="1812" y="648" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle0010" x="1812" y="648" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle0011" x="1812" y="648" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle Alt0000" x="2416" y="648" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle Alt0001" x="2416" y="648" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle Alt0002" x="0" y="1296" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle Alt0003" x="0" y="1296" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle Alt0004" x="604" y="1296" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle Alt0005" x="604" y="1296" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle Alt0006" x="1208" y="1296" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle Alt0007" x="1208" y="1296" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle Alt0008" x="1812" y="1296" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle Alt0009" x="1812" y="1296" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle Alt0010" x="1812" y="1296" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Idle Alt0011" x="1812" y="1296" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left0000" x="2416" y="1296" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left0001" x="2416" y="1296" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left0002" x="0" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left0003" x="0" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left0004" x="0" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left0005" x="0" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left0006" x="0" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left0007" x="0" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left0008" x="0" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left0009" x="0" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left0010" x="0" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left0011" x="0" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left0012" x="0" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left Alt0000" x="604" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left Alt0001" x="604" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left Alt0002" x="1208" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left Alt0003" x="1208" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left Alt0004" x="1208" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left Alt0005" x="1208" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left Alt0006" x="1208" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left Alt0007" x="1208" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left Alt0008" x="1208" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left Alt0009" x="1208" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left Alt0010" x="1208" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left Alt0011" x="1208" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Left Alt0012" x="1208" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right0000" x="1812" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right0001" x="1812" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right0002" x="2416" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right0003" x="2416" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right0004" x="2416" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right0005" x="2416" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right0006" x="2416" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right0007" x="2416" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right0008" x="2416" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right0009" x="2416" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right0010" x="2416" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right0011" x="2416" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right0012" x="2416" y="1944" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right Alt0000" x="0" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right Alt0001" x="0" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right Alt0002" x="604" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right Alt0003" x="604" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right Alt0004" x="604" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right Alt0005" x="604" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right Alt0006" x="604" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right Alt0007" x="604" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right Alt0008" x="604" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right Alt0009" x="604" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right Alt0010" x="604" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right Alt0011" x="604" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Right Alt0012" x="604" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up0000" x="1208" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up0001" x="1208" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up0002" x="1812" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up0003" x="1812" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up0004" x="1812" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up0005" x="1812" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up0006" x="1812" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up0007" x="1812" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up0008" x="1812" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up0009" x="1812" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up0010" x="1812" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up0011" x="1812" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up0012" x="1812" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up Alt0000" x="2416" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up Alt0001" x="2416" y="2592" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up Alt0002" x="0" y="3240" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up Alt0003" x="0" y="3240" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up Alt0004" x="0" y="3240" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up Alt0005" x="0" y="3240" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up Alt0006" x="0" y="3240" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up Alt0007" x="0" y="3240" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up Alt0008" x="0" y="3240" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up Alt0009" x="0" y="3240" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up Alt0010" x="0" y="3240" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up Alt0011" x="0" y="3240" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+<SubTexture name="Chii Up Alt0012" x="0" y="3240" width="604" height="648" frameX="0" frameY="0" frameWidth="604" frameHeight="648" />
+
+
+
+</TextureAtlas>

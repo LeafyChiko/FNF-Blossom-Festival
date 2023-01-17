@@ -1,0 +1,108 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bap bee-"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "hazel-left",
+			"boxState": "angry",
+			"expression": "happy",
+			"text": "HELLOOOOOO!"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "a"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "hazel-left",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "You're Boyfriend right? The one that beat Chii?"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "B-beep."
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "hazel-left",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Okay! I heard you're really good, are you a fast singer?"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Boop ba-"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "hazel-left",
+			"boxState": "angry",
+			"expression": "happy",
+			"text": "Alright! I hope you can you ke-"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "BOP Bap BUUUP BEEBEEP!"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "hazel-left",
+			"boxState": "normal",
+			"expression": "shock",
+			"text": "Huh? O-oh sorry, I got really excited."
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "hazel-left",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "I'm Hazel, Nice to meet you! I'm still new to singing but it's really fun so far!"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "hazel-left",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Anyways, lets sing as quickly as we can, alright?"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "B-boop!"
+		}
+	]
+}

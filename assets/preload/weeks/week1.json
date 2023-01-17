@@ -1,0 +1,50 @@
+{
+	"storyName": "Blossom Festival",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Floral Respite",
+			"hazel",
+			[
+				107,
+				54,
+				42
+			]
+		],
+		[
+			"Fallen Leaves",
+			"chii",
+			[
+				29,
+				125,
+				98
+			]
+		],
+		[
+			"Equinox",
+			"duo",
+			[
+				107,
+				54,
+				42
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Custom Week"
+}

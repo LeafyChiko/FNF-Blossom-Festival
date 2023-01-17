@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Chii_portraits.png">
+	<!-- Created with Adobe Animate version 22.0.6.202 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Chi_frown0000" x="0" y="0" width="949" height="991"/>
+	<SubTexture name="Chi_neutral0000" x="949" y="0" width="950" height="992"/>
+	<SubTexture name="Chi_smile0000" x="1899" y="0" width="943" height="984"/>
+	<SubTexture name="Chi_sweat_default0000" x="2842" y="0" width="852" height="940"/>
+	<SubTexture name="Chi_sweat_smile0000" x="0" y="992" width="856" height="944"/>
+</TextureAtlas>

@@ -1,0 +1,76 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.02,
+			"portrait": "hazel",
+			"boxState": "angry",
+			"expression": "happy",
+			"text": "Chiiiiiiiiiiiiiiiiiiiiiiiii!"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "chii",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "I told you, I need to clean up before the guests arrive. We can play later, alright?"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "hazel",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Aww but it'll be quick! C'mon I wanna sing again!"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "chii",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "At least let me sweep the stage, it's too dirty to be used."
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "hazel",
+			"boxState": "normal",
+			"expression": "concerned",
+			"text": "Just one song! Pleaaaaaase~!"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "chii",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "....fine, but only one song, alright? I really need to get everything ready."
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "hazel",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Yaaaaaay! It'll be quick don't worry!"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "hazel",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Tako girl said its only 5 minutes long!"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "chii",
+			"boxState": "normal",
+			"expression": "frown",
+			"text": "..."
+		}
+	]
+}

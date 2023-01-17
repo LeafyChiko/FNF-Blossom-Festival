@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Hazel_idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-75,
+				-6
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Hazel_left"
+		},
+		{
+			"offsets": [
+				-10,
+				19
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Hazel_down"
+		},
+		{
+			"offsets": [
+				4,
+				47
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Hazel_up"
+		},
+		{
+			"offsets": [
+				52,
+				23
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Hazel_Right"
+		},
+		{
+			"offsets": [
+				-73,
+				9
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "Hazeli_left_miss"
+		},
+		{
+			"offsets": [
+				25,
+				1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "Hazeli_down_Miss"
+		},
+		{
+			"offsets": [
+				-16,
+				67
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "Hazeli_up_miss"
+		},
+		{
+			"offsets": [
+				-44,
+				22
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "Hazeli_right_miss"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Hazel",
+	"position": [
+		-30,
+		90
+	],
+	"healthicon": "hazel",
+	"flip_x": false,
+	"healthbar_colors": [
+		107,
+		54,
+		42
+	],
+	"camera_position": [
+		10,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
