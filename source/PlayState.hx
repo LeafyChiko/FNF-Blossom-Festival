@@ -137,6 +137,7 @@ class PlayState extends MusicBeatState
 	public var dad:Character = null;
 	public var gf:Character = null;
 	public var boyfriend:Boyfriend = null;
+	public var exChar1:Character = null;
 
 	public var notes:FlxTypedGroup<Note>;
 	public var unspawnNotes:Array<Note> = [];
@@ -818,6 +819,15 @@ class PlayState extends MusicBeatState
 
 		add(dadGroup);
 		add(boyfriendGroup);
+		switch(SONG.song)
+		{
+			case 'Equinox':
+				exChar1 = new Character(-280, 0, 'hazel');
+				startCharacterPos(exChar1, true);
+				startCharacterLua(exChar1.curCharacter);
+				add(exChar1);
+				FlxTween.tween(exChar1, {y: exChar1.y - 150}, 3, {ease: FlxEase.quadInOut, type: PINGPONG});
+		}
 
 		switch(curStage)
 		{
@@ -2006,6 +2016,8 @@ class PlayState extends MusicBeatState
 				if (tmr.loopsLeft % dad.danceEveryNumBeats == 0 && dad.animation.curAnim != null && !dad.animation.curAnim.name.startsWith('sing') && !dad.stunned)
 				{
 					dad.dance();
+					if (exChar1 != null)
+					exChar1.dance();
 				}
 
 				var introAssets:Map<String, Array<String>> = new Map<String, Array<String>>();
@@ -3284,6 +3296,14 @@ class PlayState extends MusicBeatState
 
 	public function triggerEventNote(eventName:String, value1:String, value2:String) {
 		switch(eventName) {
+			case 'Set Cam Zoom':
+				camZooming = false;
+				defaultCamZoom = Std.parseFloat(value1);
+				camZooming = true;
+			case 'HUD Fade':
+				FlxTween.tween(camHUD, {alpha: Std.parseFloat(value2)}, Std.parseFloat(value1), {
+					ease: FlxEase.cubeInOut
+				});
 			case 'Dadbattle Spotlight':
 				var val:Null<Int> = Std.parseInt(value1);
 				if(val == null) val = 0;
@@ -4425,7 +4445,10 @@ class PlayState extends MusicBeatState
 			if(note.gfNote) {
 				char = gf;
 			}
-
+			if(note.realOtherNote) {
+				char = exChar1;
+			}
+			
 			if(char != null)
 			{
 				char.playAnim(animToPlay, true);
@@ -4824,6 +4847,14 @@ class PlayState extends MusicBeatState
 			//trace('BEAT HIT: ' + curBeat + ', LAST HIT: ' + lastBeatHit);
 			return;
 		}
+		
+		if (exChar1 != null)
+			{
+				if (curBeat % 4 == 0 && !exChar1.animation.curAnim.name.startsWith('sing'))
+					{
+						exChar1.animation.play('idle');
+					}
+			}
 
 		if (generatedMusic)
 		{
