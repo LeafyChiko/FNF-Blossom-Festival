@@ -150,11 +150,11 @@ class Note extends FlxSprite
 				case 'GF Sing':
 					gfNote = true;
 				case 'Slow Note':
-					reloadNote('BLOOM');
-					multSpeed = 0.8;
+					reloadNote('','BLOOMNOTE_assets');
+					multSpeed = 0.7;
 				case 'Fast Note':
-					reloadNote('GALE');
-					multSpeed = 1.2;
+					reloadNote('','GALENOTE_assets');
+					multSpeed = 1.3;
 			}
 			noteType = value;
 		}

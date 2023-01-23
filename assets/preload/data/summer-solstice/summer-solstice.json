@@ -9459,12 +9459,9 @@
 			}
 		],
 		"player2": "chii",
-		"player3": null,
-		"splashSkin": " ",
 		"song": "Summer Solstice",
 		"validScore": true,
-		"stage": "outside-faegation",
-		"arrowSkin": "",
+		"stage": "outside",
 		"needsVoices": true,
 		"bpm": 205,
 		"speed": 3

@@ -10901,7 +10901,7 @@
 		"song": "Summer Solstice",
 		"needsVoices": true,
 		"validScore": true,
-		"stage": "outside-faegation",
+		"stage": "outside",
 		"bpm": 205,
 		"speed": 3
 	}
