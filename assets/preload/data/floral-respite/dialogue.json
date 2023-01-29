@@ -1,0 +1,84 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "chii",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Oh! You're a new face around here, welcome to our festival!"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "chii",
+			"boxState": "normal",
+			"expression": "smile",
+			"text": "My name's Chii, the host of this event."
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "chii",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "I see you've taken interest in our singing competition, hehe. I'll be your first opponent."
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "chii",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "What's your name?"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Beep boop bop."
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "chii",
+			"boxState": "normal",
+			"expression": "smile",
+			"text": "Boyfriend? Well nice to meetcha! You don't seem from around the area, what got your interest?"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Baaaaaaap bip brop."
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "chii",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "Ah you heard the music... I see! Well thank you for coming here!"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "chii",
+			"boxState": "normal",
+			"expression": "neutral",
+			"text": "I may not be much of an singer but let's make a nice show for the audience, alright?"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Boop bebap."
+		}
+	]
+}

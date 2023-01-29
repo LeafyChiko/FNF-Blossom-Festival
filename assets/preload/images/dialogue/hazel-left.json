@@ -1,0 +1,89 @@
+{
+	"position": [
+		-250,
+		-300
+	],
+	"dialogue_pos": "left",
+	"scale": 0.649999999999999,
+	"image": "Hazel_portraits_left",
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "concerned",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Hazel_concerned",
+			"idle_name": "Hazel_concerned"
+		},
+		{
+			"loop_offsets": [
+				-2,
+				-12
+			],
+			"anim": "curious",
+			"idle_offsets": [
+				-2,
+				-12
+			],
+			"loop_name": "Hazel_curious",
+			"idle_name": "Hazel_curious"
+		},
+		{
+			"loop_offsets": [
+				10,
+				10
+			],
+			"anim": "happy",
+			"idle_offsets": [
+				10,
+				10
+			],
+			"loop_name": "Hazel_happy",
+			"idle_name": "Hazel_happy"
+		},
+		{
+			"loop_offsets": [
+				10,
+				0
+			],
+			"anim": "neutral",
+			"idle_offsets": [
+				10,
+				0
+			],
+			"loop_name": "Hazel_neutral",
+			"idle_name": "Hazel_neutral"
+		},
+		{
+			"loop_offsets": [
+				10,
+				20
+			],
+			"anim": "shock",
+			"idle_offsets": [
+				10,
+				20
+			],
+			"loop_name": "Hazel_shock",
+			"idle_name": "Hazel_shock"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "shout",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Hazel_shout",
+			"idle_name": "Hazel_shout"
+		}
+	]
+}

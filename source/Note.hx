@@ -52,7 +52,6 @@ class Note extends FlxSprite
 
 	public var animSuffix:String = '';
 	public var gfNote:Bool = false;
-	public var realOtherNote:Bool = false;
 	public var earlyHitMult:Float = 0.5;
 	public var lateHitMult:Float = 1;
 	public var lowPriority:Bool = false;
@@ -151,12 +150,11 @@ class Note extends FlxSprite
 				case 'GF Sing':
 					gfNote = true;
 				case 'Slow Note':
-					reloadNote('','BLOOMNOTE_assets');
+					reloadNote('BLOOM');
 					multSpeed = 0.8;
 				case 'Fast Note':
-					reloadNote('','GALENOTE_assets');
-					multSpeed = 1.1;
-					realOtherNote = true;
+					reloadNote('GALE');
+					multSpeed = 1.2;
 			}
 			noteType = value;
 		}

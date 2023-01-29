@@ -86,7 +86,11 @@
 			"portrait": "hazel-left",
 			"boxState": "normal",
 			"expression": "neutral",
+<<<<<<< Updated upstream
 			"text": "I'm Hazel, Nice to meet you! I'm still new to singing but it's really fun so far!"
+=======
+			"text": "I'm Hazel, Nice to meet you! I'm still new at singing but it's really fun so far!"
+>>>>>>> Stashed changes
 		},
 		{
 			"sound": "",
@@ -94,7 +98,11 @@
 			"portrait": "hazel-left",
 			"boxState": "normal",
 			"expression": "happy",
+<<<<<<< Updated upstream
 			"text": "Anyways, lets sing as quickly as we can, alright?"
+=======
+			"text": "Anyways, lets sing as fast as we can, alright?"
+>>>>>>> Stashed changes
 		},
 		{
 			"sound": "",

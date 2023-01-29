@@ -1,0 +1,16 @@
+{
+	"song": {
+		"events": [
+			[
+				196770.186335403,
+				[
+					[
+						"Set Property",
+						"healthDrainAmount",
+						"0.02"
+					]
+				]
+			]
+		]
+	}
+}
