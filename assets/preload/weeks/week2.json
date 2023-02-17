@@ -1,6 +1,6 @@
 {
 	"storyName": "The Secret Song",
-	"difficulties": "Easy, Normal, Hard, Old",
+	"difficulties": "Normal, Hard, Old",
 	"hideFreeplay": false,
 	"weekBackground": "stage",
 	"weekBefore": "tutorial",
@@ -14,11 +14,20 @@
 	"songs": [
 		[
 			"Faepurgation",
-			"Chii",
+			"chii",
 			[
-				146,
-				113,
-				253
+				29,
+				125,
+				98
+			]
+		],
+		[
+			"Summer Solstice",
+			"chii",
+			[
+				29,
+				125,
+				98
 			]
 		]
 	],

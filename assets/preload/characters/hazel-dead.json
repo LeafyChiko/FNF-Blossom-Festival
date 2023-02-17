@@ -1,15 +1,11 @@
 {
 	"animations": [
 		{
-<<<<<<< Updated upstream
 			"loop": false,
-=======
->>>>>>> Stashed changes
 			"offsets": [
 				0,
 				-30
 			],
-<<<<<<< Updated upstream
 			"anim": "firstDeath",
 			"fps": 24,
 			"name": "Hazel_dies",
@@ -25,13 +21,6 @@
 			"fps": 24,
 			"name": "Hazel_dead_confirm",
 			"indices": []
-=======
-			"indices": [],
-			"fps": 24,
-			"anim": "firstDeath",
-			"loop": false,
-			"name": "Hazel_dies"
->>>>>>> Stashed changes
 		},
 		{
 			"offsets": [
@@ -41,24 +30,8 @@
 			"indices": [],
 			"fps": 24,
 			"anim": "deathLoop",
-<<<<<<< Updated upstream
 			"loop": true,
 			"name": "Hazel_dead_loop"
-=======
-			"loop": false,
-			"name": "Hazel_dead_loop"
-		},
-		{
-			"offsets": [
-				-19,
-				-35
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "deathConfirm",
-			"loop": false,
-			"name": "Hazel_dead_confirm"
->>>>>>> Stashed changes
 		}
 	],
 	"no_antialiasing": false,

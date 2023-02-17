@@ -1,81 +1,48 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-5,
 				0
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "Hazel_idle"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-40,
-				-21
-			],
-			"anim": "singDOWN",
 			"fps": 24,
-			"name": "Hazel_down",
+			"name": "Hazel_idle",
 			"indices": []
 		},
 		{
+			"offsets": [
+				-75,
+				-6
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
 			"loop": false,
+			"name": "Hazel_left"
+		},
+		{
+			"offsets": [
+				-10,
+				19
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Hazel_down"
+		},
+		{
 			"offsets": [
 				4,
-				37
+				47
 			],
+			"indices": [],
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "Hazel_up",
-			"indices": []
-		},
-		{
 			"loop": false,
-			"offsets": [
-				-93,
-				9
-			],
-			"anim": "singLEFTmiss",
-			"fps": 24,
-			"name": "Hazeli_left_miss",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				15,
-				1
-			],
-			"anim": "singDOWNmiss",
-			"fps": 24,
-			"name": "Hazeli_down_Miss",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-16,
-				67
-			],
-			"anim": "singUPmiss",
-			"fps": 24,
-			"name": "Hazeli_up_miss",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-64,
-				22
-			],
-			"anim": "singRIGHTmiss",
-			"fps": 24,
-			"name": "Hazeli_right_miss",
-			"indices": []
+			"name": "Hazel_up"
 		},
 		{
 			"offsets": [
@@ -86,18 +53,51 @@
 			"fps": 24,
 			"anim": "singRIGHT",
 			"loop": false,
-			"name": "Hazel_left"
+			"name": "Hazel_Right"
 		},
 		{
 			"offsets": [
-				-45,
-				-6
+				-73,
+				9
 			],
 			"indices": [],
 			"fps": 24,
-			"anim": "singLEFT",
+			"anim": "singLEFTmiss",
 			"loop": false,
-			"name": "Hazel_Right"
+			"name": "Hazeli_left_miss"
+		},
+		{
+			"offsets": [
+				25,
+				1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "Hazeli_down_Miss"
+		},
+		{
+			"offsets": [
+				-16,
+				67
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "Hazeli_up_miss"
+		},
+		{
+			"offsets": [
+				-44,
+				22
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "Hazeli_right_miss"
 		}
 	],
 	"no_antialiasing": false,

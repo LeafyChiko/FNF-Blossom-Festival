@@ -14,11 +14,7 @@
 			"portrait": "chii",
 			"boxState": "normal",
 			"expression": "neutral",
-<<<<<<< Updated upstream
 			"text": "I told you, I need to clean up before the guests arrive. We can play later, alright?"
-=======
-			"text": "I told you, I need to clean up before the guests arive. We can play later, alright?"
->>>>>>> Stashed changes
 		},
 		{
 			"sound": "",
@@ -34,11 +30,7 @@
 			"portrait": "chii",
 			"boxState": "normal",
 			"expression": "neutral",
-<<<<<<< Updated upstream
 			"text": "At least let me sweep the stage, it's too dirty to be used."
-=======
-			"text": "At least let me sweep the stage, then we can sing some more."
->>>>>>> Stashed changes
 		},
 		{
 			"sound": "",
@@ -53,13 +45,8 @@
 			"speed": 0.03,
 			"portrait": "chii",
 			"boxState": "normal",
-<<<<<<< Updated upstream
 			"expression": "neutral",
 			"text": "....fine, but only one song, alright? I really need to get everything ready."
-=======
-			"expression": "talk",
-			"text": "....fine, but only one song alright? I really need to get everything ready."
->>>>>>> Stashed changes
 		},
 		{
 			"sound": "",
@@ -75,22 +62,14 @@
 			"portrait": "hazel",
 			"boxState": "normal",
 			"expression": "neutral",
-<<<<<<< Updated upstream
 			"text": "Tako girl said its only 5 minutes long!"
-=======
-			"text": "Squid girl said its only 5 minutes long!"
->>>>>>> Stashed changes
 		},
 		{
 			"sound": "",
 			"speed": 0.03,
 			"portrait": "chii",
 			"boxState": "normal",
-<<<<<<< Updated upstream
 			"expression": "frown",
-=======
-			"expression": "talk",
->>>>>>> Stashed changes
 			"text": "..."
 		}
 	]

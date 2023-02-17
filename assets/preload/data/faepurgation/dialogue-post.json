@@ -34,11 +34,7 @@
 		},
 		{
 			"expression": "neutral",
-<<<<<<< Updated upstream
 			"text": "W-what? No! Last time you tried to help you kicked up too much dust!",
-=======
-			"text": "W-what? No! Lasat time you tried to help your wind kicked up too much dust!",
->>>>>>> Stashed changes
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.03,
