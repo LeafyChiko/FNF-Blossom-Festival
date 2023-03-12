@@ -77,6 +77,7 @@ class ChartingState extends MusicBeatState
 	var eventStuff:Array<Dynamic> =
 	[
 		['', "Nothing. Yep, that's right."],
+		['Hazel Offset',''],
 		['HUD Fade','Value1: Duration\nValue2: alpha'],
 		['Set Cam Zoom', "Value 1: zoom amount"],
 		['Dadbattle Spotlight', "Used in Dad Battle,\nValue 1: 0/1 = ON/OFF,\n2 = Target Dad\n3 = Target BF"],

@@ -54,7 +54,7 @@
 			"anim": "singRIGHT",
 			"indices": [],
 			"name": "Pot right"
-		},
+		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Pot",

@@ -64,7 +64,7 @@
 			"fps": 24,
 			"anim": "singRIGHT-alt",
 			"indices": [],
-			"name": "Chiia Right Alt"
+			"name": "Chii Right Alt"
 		},
 		{
 			"offsets": [
@@ -75,7 +75,7 @@
 			"fps": 24,
 			"anim": "singDOWN-alt",
 			"indices": [],
-			"name": "Chiia Down Alt"
+			"name": "Chii Down Alt"
 		},
 		{
 			"offsets": [
@@ -86,7 +86,7 @@
 			"fps": 24,
 			"anim": "singLEFT-alt",
 			"indices": [],
-			"name": "Chiia Left Alt"
+			"name": "Chii Left Alt"
 		},
 		{
 			"offsets": [
@@ -97,7 +97,7 @@
 			"fps": 24,
 			"anim": "singUP-alt",
 			"indices": [],
-			"name": "Chiia Up Alt"
+			"name": "Chii Up Alt"
 		},
 		{
 			"offsets": [
@@ -108,7 +108,7 @@
 			"fps": 24,
 			"anim": "idle-alt",
 			"indices": [],
-			"name": "Chiia Idle Alt"
+			"name": "Chii Idle Alt"
 		}
 	],
 	"no_antialiasing": false,

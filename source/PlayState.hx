@@ -713,9 +713,9 @@ class PlayState extends MusicBeatState
 
 			case 'schoolEvil': //Week 6 - Thorns
 				GameOverSubstate.deathSoundName = 'fnf_loss_sfx-pixel';
-				GameOverSubstate.loopSoundName = 'gameOver-pixel';
-				GameOverSubstate.endSoundName = 'gameOverEnd-pixel';
-				GameOverSubstate.characterName = 'bf-pixel-dead';
+				GameOverSubstate.loopSoundName 	= 'gameOver-pixel';
+				GameOverSubstate.endSoundName  	= 'gameOverEnd-pixel';
+				GameOverSubstate.characterName 	= 'bf-pixel-dead';
 
 				/*if(!ClientPrefs.lowQuality) { //Does this even do something?
 					var waveEffectBG = new FlxWaveEffect(FlxWaveMode.ALL, 2, -1, 3, 2);
@@ -819,14 +819,13 @@ class PlayState extends MusicBeatState
 
 		add(dadGroup);
 		add(boyfriendGroup);
-		switch(SONG.song)
+		switch(SONG.song.toLowerCase())
 		{
-			case 'Equinox':
+			case 'equinox':
 				exChar1 = new Character(-280, 0, 'hazel');
 				startCharacterPos(exChar1, true);
 				startCharacterLua(exChar1.curCharacter);
 				add(exChar1);
-				FlxTween.tween(exChar1, {y: exChar1.y - 150}, 3, {ease: FlxEase.quadInOut, type: PINGPONG});
 		}
 
 		switch(curStage)
@@ -951,11 +950,6 @@ class PlayState extends MusicBeatState
 		startCharacterPos(dad, true);
 		dadGroup.add(dad);
 		startCharacterLua(dad.curCharacter);
-
-		if (dad.curCharacter == 'hazel')
-			{
-				FlxTween.tween(dad, {y: dad.y - 150}, 3, {ease: FlxEase.quadInOut, type: PINGPONG});
-			}
 
 		boyfriend = new Boyfriend(0, 0, SONG.player1);
 		startCharacterPos(boyfriend);
@@ -1354,6 +1348,16 @@ class PlayState extends MusicBeatState
 
 		super.create();
 
+		if (dad.curCharacter.contains('hazel'))
+			flyY = dad.y;
+		if (boyfriend.curCharacter.contains('hazel'))
+			flyY = boyfriend.y;
+		if (exChar1 != null)
+		{
+			exChar1.y = dad.y + 160;
+			if (exChar1.curCharacter.contains('hazel'))
+				flyY = exChar1.y;
+		}
 		Paths.clearUnusedMemory();
 
 		for (key => type in precacheList)
@@ -2740,9 +2744,21 @@ class PlayState extends MusicBeatState
 	var startedCountdown:Bool = false;
 	var canPause:Bool = true;
 	var limoSpeed:Float = 0;
+	var flyY:Float = 0;
+	var flyingHeight:Float = 60;
+	var flyTimeDivision:Float = 11000;
 
 	override public function update(elapsed:Float)
 	{
+		if (exChar1 != null)
+		{
+			if (exChar1.curCharacter.contains('hazel'))
+				exChar1.y = FlxMath.lerp(exChar1.y, flyY + flyingHeight * Math.cos(((Conductor.songPosition / flyTimeDivision)*(Conductor.bpm/60)) * Math.PI), CoolUtil.boundTo(elapsed * 8, 0, 1));
+		}
+		if (dad.curCharacter.contains('hazel'))
+			dad.y = FlxMath.lerp(dad.y, flyY + flyingHeight * Math.cos(((Conductor.songPosition / flyTimeDivision)*(Conductor.bpm/60)) * Math.PI), CoolUtil.boundTo(elapsed * 8, 0, 1));
+		if (boyfriend.curCharacter.contains('hazel'))
+			boyfriend.y = FlxMath.lerp(boyfriend.y, flyY + flyingHeight * Math.cos(((Conductor.songPosition / flyTimeDivision)*(Conductor.bpm/60)) * Math.PI), CoolUtil.boundTo(elapsed * 8, 0, 1));
 		/*if (FlxG.keys.justPressed.NINE)
 		{
 			iconP1.swapOldIcon();
@@ -3296,6 +3312,8 @@ class PlayState extends MusicBeatState
 
 	public function triggerEventNote(eventName:String, value1:String, value2:String) {
 		switch(eventName) {
+			case 'Hazel Offset':
+				flyY += Std.parseFloat(value1);
 			case 'Set Cam Zoom':
 				camZooming = false;
 				defaultCamZoom = Std.parseFloat(value1);
@@ -3669,6 +3687,12 @@ class PlayState extends MusicBeatState
 						}
 					});
 				}
+
+			case 'Change Hazel Offset':
+				var val1:Float = Std.parseFloat(value1);
+				var val2:Float = Std.parseFloat(value2);
+				if(Math.isNaN(val1)) val1 = 0;
+				if(Math.isNaN(val2)) val2 = 150;
 
 			case 'Set Property':
 				var killMe:Array<String> = value1.split('.');
@@ -4445,7 +4469,7 @@ class PlayState extends MusicBeatState
 			if(note.gfNote) {
 				char = gf;
 			}
-			if(note.realOtherNote) {
+			if(SONG.song.toLowerCase() != 'faepurgation' && note.realOtherNote) {
 				char = exChar1;
 			}
 			
@@ -4453,6 +4477,11 @@ class PlayState extends MusicBeatState
 			{
 				char.playAnim(animToPlay, true);
 				char.holdTimer = 0;
+				if (SONG.song.toLowerCase() == 'equinox' && note.noteType == '' && exChar1 != null)
+				{
+					exChar1.playAnim(animToPlay, true);
+					exChar1.holdTimer = 0;
+				}
 			}
 		}
 
